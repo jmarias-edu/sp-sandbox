@@ -17,4 +17,4 @@ from django.shortcuts import render
 #     return HttpResponse(html)
 
 def index(request):
-    return render(request, "example/index.html")
+    return render(request, "index.html")
